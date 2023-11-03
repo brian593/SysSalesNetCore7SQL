@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\SysSale.BLL\SysSale.BLL.csproj" />
+    <ProjectReference Include="..\SysSale.IOC\SysSale.IOC.csproj" />
+    <ProjectReference Include="..\SysSale.Entity\SysSale.Entity.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
